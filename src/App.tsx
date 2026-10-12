@@ -2,8 +2,9 @@ import './App.css'
 
 function App() {
   return (
-   <header className="header">
-      <a className="logo" href="#hem">Sandra Hellström</a>
+    <>
+      <header className="header">
+        <a className="logo" href="#hem">Sandra Hellström</a>
 
       <nav>
         <a href="#om-mig">Om mig</a>
@@ -12,8 +13,8 @@ function App() {
         <a href="#kontakt">Kontakt</a>
       </nav>
     </header>
-  )
-}
+
+
 
 <section id="hem" className="hero">
   <div className="hero-text">
@@ -35,7 +36,11 @@ function App() {
     </p>
   </div>
 </section>
+</>
 
+
+  )
+}
 
 
 export default App
