@@ -4,6 +4,19 @@ body {
   color: #33342f;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 8%;
+}
+
 .hero {
   position: relative;
   min-height: 35vh;
