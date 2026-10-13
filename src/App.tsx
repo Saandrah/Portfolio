@@ -55,6 +55,13 @@ function App() {
           <div className="project-card"></div>
         </div>
       </section>
+      <section id="om-mig" className="about">
+  <h2>Om mig</h2>
+</section>
+
+<footer className="footer" id="kontakt">
+  <h2>Kontakt</h2>
+</footer>
     </>
   )
 }
