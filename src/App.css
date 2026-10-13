@@ -16,7 +16,8 @@ a {
   text-decoration: none;
 }
 .hero-text {
-  max-width: 600px;
+  max-width: 750px;
+  text-align: left;
 }
 
 .hero-intro {
@@ -39,5 +40,12 @@ h1 {
 .hero-description {
   max-width: 430px;
   font-size: 1rem;
-  line-height: 2.6875rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }

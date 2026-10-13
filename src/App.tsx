@@ -17,6 +17,7 @@ function App() {
 
 
 <section id="hem" className="hero">
+  <div className="hero-content">
   <div className="hero-text">
     <p className="hero-intro">
       Front-end x Visuell kommunikation
@@ -24,7 +25,6 @@ function App() {
 
     <h1>
       Kreativ design
-      <br />
       möter kod.
     </h1>
 
@@ -34,6 +34,7 @@ function App() {
       bakgrund inom grafisk design, foto
       och kommunikation.
     </p>
+    </div>
   </div>
 </section>
 </>
