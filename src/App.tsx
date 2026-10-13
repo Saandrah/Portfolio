@@ -1,4 +1,6 @@
 import './App.css'
+
+import About from './components/about.tsx'
 import portrait from './assets/sandra-portrait.png'
 
 function App() {
@@ -55,10 +57,7 @@ function App() {
           <div className="project-card"></div>
         </div>
       </section>
-      <section id="om-mig" className="about">
-  <h2>Om mig</h2>
-</section>
-
+   <About />
 <footer className="footer" id="kontakt">
   <h2>Kontakt</h2>
 </footer>
