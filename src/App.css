@@ -18,6 +18,24 @@ nav {
   width: 100%;
 }
 
+h1 {
+  color: #34382f;
+  font-family:
+    Petit Formal Script,
+    cursive;
+  font-size: clamp(2.2rem, 3.5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-family:
+    Antic Didone,
+    serif;
+  font-weight: 400;
+}
+
 .hero {
   position: relative;
   min-height: 35vh;
@@ -32,7 +50,7 @@ a {
   text-decoration: none;
 }
 .hero-text {
-  max-width: 380px;
+  max-width: 500px;
   text-align: left;
 }
 
@@ -42,17 +60,12 @@ a {
   text-transform: uppercase;
 }
 
-h1 {
-  color: #34382f;
-  font-family:
-    Petit Formal Script,
-    cursive;
-  font-size: clamp(2.2rem, 3.5vw, 3.5rem);
-  font-weight: 400;
-  line-height: 1.2;
-  margin: 1rem 0;
+.hero-line {
+  width: 500px;
+  height: 1px;
+  background-color: #4c5032;
+  margin: 1.5rem 0;
 }
-
 .hero-description {
   max-width: 430px;
   font-size: 1rem;
@@ -71,7 +84,7 @@ h1 {
   bottom: 0;
   right: 8%;
   width: 50%;
-  max-width: 370px;
+  max-width: 320px;
   height: auto;
   object-fit: contain;
 }

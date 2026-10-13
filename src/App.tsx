@@ -1,6 +1,7 @@
 import './App.css'
 
 import About from './components/about.tsx'
+import Contact from './components/contact.tsx'
 import portrait from './assets/sandra-portrait.png'
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
       möter kod.
     </h1>
 
+
+<div className="hero-line"></div>
+
     <p className="hero-description">
       Jag skapar visuella upplevelser och
       bygger dem till webben, med
@@ -58,9 +62,8 @@ function App() {
         </div>
       </section>
    <About />
-<footer className="footer" id="kontakt">
-  <h2>Kontakt</h2>
-</footer>
+   <Contact />
+
     </>
   )
 }
