@@ -74,3 +74,23 @@ h1 {
   height: auto;
   object-fit: contain;
 }
+
+.projects {
+  padding: 4rem 8%;
+}
+
+.projects h2 {
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.project-card {
+  min-height: 325px;
+  border-radius: 16px;
+  background-color: #d7dac6;
+}
