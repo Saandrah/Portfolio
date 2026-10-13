@@ -5,10 +5,12 @@ body {
 }
 
 .hero {
-  min-height: 75vh;
+  position: relative;
+  min-height: 35vh;
   display: flex;
   align-items: center;
-  padding: 6rem 10%;
+  padding: 3rem 8%;
+  background-color: #d7dac6;
 }
 
 a {
@@ -16,7 +18,7 @@ a {
   text-decoration: none;
 }
 .hero-text {
-  max-width: 750px;
+  max-width: 380px;
   text-align: left;
 }
 
@@ -31,10 +33,10 @@ h1 {
   font-family:
     Petit Formal Script,
     cursive;
-  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-size: clamp(2.2rem, 3.5vw, 3.5rem);
   font-weight: 400;
   line-height: 1.2;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .hero-description {
@@ -48,4 +50,14 @@ h1 {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.hero-portrait {
+  position: absolute;
+  bottom: 0;
+  right: 8%;
+  width: 50%;
+  max-width: 370px;
+  height: auto;
+  object-fit: contain;
 }

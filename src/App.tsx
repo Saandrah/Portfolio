@@ -1,4 +1,5 @@
 import './App.css'
+import portrait from './assets/sandra-portrait.png'
 
 function App() {
   return (
@@ -35,6 +36,11 @@ function App() {
       och kommunikation.
     </p>
     </div>
+    <img
+  src={portrait}
+  alt="Porträtt av Sandra"
+  className="hero-portrait"
+/>
   </div>
 </section>
 </>
