@@ -134,3 +134,17 @@ a {
   color: #ebece1;
   margin: 0;
 }
+
+.contact-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
