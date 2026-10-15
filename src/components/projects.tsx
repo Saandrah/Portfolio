@@ -3,19 +3,23 @@ import { useState } from 'react'
 import ProjectCard from './projectCard'
 import { projects } from '../data/projects'
 
-function Projects() {
-  const [selectedTechnology, setSelectedTechnology] = useState('Alla')
+const categories = [
+  'Alla',
+  'Front-end',
+  'Back-end',
+  'Fotografi',
+  'Visuell kommunikation',
+  'Grafisk design',
+]
 
-  const technologies = [
-    'Alla',
-    ...new Set(projects.flatMap((project) => project.technologies)),
-  ]
+function Projects() {
+  const [selectedCategory, setSelectedCategory] = useState('Alla')
 
   const filteredProjects =
-    selectedTechnology === 'Alla'
+    selectedCategory === 'Alla'
       ? projects
       : projects.filter((project) =>
-          project.technologies.includes(selectedTechnology),
+          project.categories.includes(selectedCategory),
         )
 
   return (
@@ -23,17 +27,17 @@ function Projects() {
       <h2>Mina projekt</h2>
 
       <div className="project-filters">
-        {technologies.map((technology) => (
+        {categories.map((category) => (
           <button
-            key={technology}
+            key={category}
             className={
-              selectedTechnology === technology
+              selectedCategory === category
                 ? 'filter-button active'
                 : 'filter-button'
             }
-            onClick={() => setSelectedTechnology(technology)}
+            onClick={() => setSelectedCategory(category)}
           >
-            {technology}
+            {category}
           </button>
         ))}
       </div>

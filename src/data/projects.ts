@@ -9,6 +9,7 @@ export const projects = [
   {
     title: "Negative Space",
     image: negativeSpaceImage,
+     categories: ["Front-end"],
     description:
       "En responsiv landningssida för ett spel med rymdtema, utvecklad i grupp. Mitt ansvarsområde var att skapa en popup för nyhetsbrevsregistrering där besökaren kunde ange sin e-postadress.",
     technologies: [
@@ -34,6 +35,7 @@ export const projects = [
   {
   title: "Be Safe, Be Yourself",
   image: beSafeImage,
+  categories: ["Visuell kommunikation", "Grafisk design"],
   description:
     "Ett visuellt kampanjkoncept som utforskar hur mode, maskbärande och personlig stil kan kommunicera trygghet och individualitet.",
   technologies: ["Grafisk design", "Visuell kommunikation"],
@@ -49,6 +51,7 @@ export const projects = [
 {
   title: "Sju sorters kakor",
   image: sjuSortersKakorImage,
+  categories: ["Visuell kommunikation", "Fotografi", "Grafisk design"],
   description:
     "Ett kokboksprojekt med fokus på grafisk form, typografi, fotografering och layout. Arbetet omfattar bokomslag, uppslag och ett sammanhållet visuellt uttryck.",
   technologies: ["Grafisk design", "Fotografi", "Layout"],
@@ -62,6 +65,7 @@ export const projects = [
 {
   title: "Alice in Wonderland",
   image: aliceImage,
+  categories: ["Front-end"],
   description:
     "Ett grupprojekt där vi utvecklade ett Alice i Underlandet-inspirerat escape room-spel med sex rum och unika pussel. Jag ansvarade för rum 4, Kurragömma, där spelaren ska hitta och fånga Cheshire-katten som dyker upp på slumpmässiga positioner.",
   technologies: [
@@ -86,6 +90,7 @@ export const projects = [
 {
   title: "Dr. Oetker Påskkampanj",
   image: drOetkerImage,
+  categories: ["Fotografi", "Visuell kommunikation", "Grafisk design"],
   description:
     "Ett visuellt kampanjkoncept för Dr. Oetker med fokus på receptfotografi, grafisk form och layout. Projektet omfattar utformning av receptmaterial och en sammanhållen visuell presentation av påskkampanjen.",
   technologies: [
@@ -105,6 +110,7 @@ export const projects = [
 {
   title: "Bookworm",
   image: bookwormImage,
+  categories: ["Front-end", "Back-end"],
   description:
     "En bokkatalog utvecklad i grupp där besökare kan utforska böcker och skriva recensioner. Jag ansvarade för recensionerna och arbetade med API, integrationen mellan backend och frontend samt klientdelen.",
   technologies: [
