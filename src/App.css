@@ -106,6 +106,7 @@ a {
 .project-card {
   display: flex;
   flex-direction: column;
+  min-height: 520px;
   min-width: 0;
   overflow: hidden;
   border-radius: 16px;
@@ -138,6 +139,7 @@ a {
   margin: 0 1.25rem 1.25rem;
   font-size: 0.9rem;
   line-height: 1.7;
+  min-height: 5.1em;
 }
 
 .project-technologies {
@@ -172,6 +174,39 @@ a {
 
 .project-links a:hover {
   opacity: 0.6;
+}
+
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.filter-button {
+  padding: 0.65rem 1.2rem;
+  border: 1px solid #c5c8b5;
+  border-radius: 999px;
+  background-color: transparent;
+  color: #33342f;
+  font-family: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.filter-button:hover {
+  background-color: #d7dac6;
+  border-color: #a5a88f;
+}
+
+.filter-button.active {
+  background-color: #4c5032;
+  border-color: #4c5032;
+  color: #ebece1;
 }
 
 .about {
