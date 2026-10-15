@@ -1,5 +1,7 @@
+
 import ProjectCard from './projectCard'
 import { projects } from '../data/projects'
+
 
 function Projects() {
   return (
@@ -7,24 +9,19 @@ function Projects() {
       <h2>Mina projekt</h2>
 
       <div className="project-grid">
-
-{projects.map((project) => (
-    <ProjectCard
-      key={project.title}
-      title={project.title}
-      description={project.description}
-    />
-    
-  ))}
-        <div className="project-card"></div>
-        <div className="project-card"></div>
-        <div className="project-card"></div>
-        <div className="project-card"></div>
-        <div className="project-card"></div>
-        <div className="project-card"></div>
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.title}
+            title={project.title}
+            image={project.image}
+            description={project.description}
+            technologies={project.technologies}
+            links={project.links}
+          />
+        ))}
       </div>
     </section>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
