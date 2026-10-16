@@ -1,5 +1,5 @@
 
-import portrait from '../assets/sandra-portrait.png'
+import portrait from '../assets/Sandra-portrait.png'
 
 function Hero() {
   return (
