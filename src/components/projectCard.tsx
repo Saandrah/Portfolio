@@ -18,10 +18,15 @@ function ProjectCard({
   description,
   technologies,
   links,
+
 }: ProjectCardProps) {
-  return (
+ return (
     <div className="project-card">
-      <img src={image} alt={`Bild från projektet ${title}`} className="project-image" />
+      <img
+        src={image}
+        alt={`Bild från projektet ${title}`}
+        className="project-image"
+      />
       <h3>{title}</h3>
       <p>{description}</p>
 
@@ -50,3 +55,6 @@ function ProjectCard({
 }
 
 export default ProjectCard;
+
+
+
